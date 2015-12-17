@@ -1,0 +1,51 @@
+<resources>
+
+     <!-- 全屏幕拉伸 -->
+    <style name="w_h_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 高度和屏幕高度一样 宽度自适应 -->
+    <style name="w_wrap_h_full">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 宽度和屏幕宽度一样 高度自适应 -->
+    <style name="w_full_h_wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 固定自身大小 -->
+    <style name="w_wrap_h_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 横向比例分布 -->
+    <style name="w_weight_h_full">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0.0dp</item>
+    </style>
+
+    <!-- 纵向比例分布 -->
+    <style name="h_weight_w_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dp</item>
+    </style>
+
+    <!-- 横向比例分布 -->
+    <style name="w_weight_h_wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0.0dp</item>
+    </style>
+
+    <!-- 纵向比例分布 -->
+    <style name="h_weight_w_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.0dp</item>
+    </style>
+
+</resources>

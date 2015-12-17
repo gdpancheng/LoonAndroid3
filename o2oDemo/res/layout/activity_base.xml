@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/w_h_full"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/user_top"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/go_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/goods_detail_list"
+            android:textColor="@color/yellow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/center"
+        style="@style/h_weight_w_full"
+        android:layout_weight="1" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/w_full_h_wrap"
+        android:background="@drawable/bottom_bar"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/w_weight_h_wrap"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/home"
+                style="@style/w_full_h_wrap"
+                android:src="@drawable/home_press" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/w_weight_h_wrap"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/list"
+                style="@style/w_full_h_wrap"
+                android:src="@drawable/list_bt" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/w_weight_h_wrap"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/user"
+                style="@style/w_full_h_wrap"
+                android:src="@drawable/user_bt" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/w_weight_h_wrap"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/buy"
+                style="@style/w_full_h_wrap"
+                android:src="@drawable/buy_bt" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/w_weight_h_wrap"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/more"
+                style="@style/w_full_h_wrap"
+                android:src="@drawable/more_bt" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

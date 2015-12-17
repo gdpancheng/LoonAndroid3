@@ -1,0 +1,11 @@
+<ListView xmlns:panel="http://schemas.android.com/apk/res/com.bluemobi.xiamenhome"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/good_list"
+    android:layout_width="fill_parent"
+    android:layout_height="0.0dp"
+    android:layout_weight="1"
+    android:cacheColorHint="#00000000"
+    android:divider="@android:color/transparent"
+    android:listSelector="@android:color/transparent"
+    android:scrollbars="none" />
+

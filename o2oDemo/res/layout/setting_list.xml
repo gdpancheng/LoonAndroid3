@@ -1,0 +1,13 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/goods_back"
+    android:cacheColorHint="#00000000"
+    android:divider="@drawable/line1"
+    android:listSelector="@android:color/transparent"
+    android:padding="5dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:scrollbars="none" />

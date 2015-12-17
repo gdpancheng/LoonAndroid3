@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.xiamenhome"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:name="com.demo.application.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.demo.xiamenhome.WelcomeActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.demo.xiamenhome.AboutActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.BuyingActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.MoreActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.LoginActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.ServerActivity" >
+        </activity>
+        <activity
+            android:name="com.demo.xiamenhome.RegisterActivity"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.demo.xiamenhome.MainActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.GoodsListActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.SettingActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.GoodsDetailInfoActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.GoodsDetailListActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.UserActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.UpdateUserActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.OrderActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.ShoppingCartActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.AddAddressActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.MoreMessageActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.ShoucangActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.IntroductionInfoActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.ShopMessageActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.AddressActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.GoodsSearchListActivity" >
+        </activity>
+        <activity android:name="com.demo.xiamenhome.OrderSubmitActivity" >
+        </activity>
+    </application>
+
+</manifest>

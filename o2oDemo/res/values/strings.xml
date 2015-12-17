@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">厦门家居</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="goods_list">商品分类</string>
+    <string name="goods_order">我的订单</string>
+    <string name="goods_shoucang">收藏</string>
+    <string name="update_userinfo">编辑资料</string>
+    <string name="user_login">用户登录</string>
+    <string name="user_register">用户注册</string>
+    <string name="address_title">收货地址</string>
+    <string name="goods_detail_list">列表</string>
+    <string name="goods_sorts">排序:</string>
+    <string name="goods_money">价格</string>
+    <string name="goods_time">上架时间</string>
+    <string name="goods_sales">销量</string>
+    <string name="goods_pingpai">品牌:</string>
+    <string name="goods_all_pingpai">全部品牌</string>
+    <string name="goods_fenlei">分类:</string>
+    <string name="goods_all_fenlei">全部分类</string>
+    <string name="goods_detail">产品详情</string>
+    <string name="user_info">个人信息</string>
+    <string name="setting">设置</string>
+    <string name="guanzhu">关注</string>
+    <string name="fensi">粉丝</string>
+    <string name="xianhua">鲜花</string>
+    <string name="message">买家留言</string>
+    <string name="seller_message">卖家留言</string>
+    <string name="introduction">品牌介绍</string>
+    <string name="shop_message">店铺留言</string>
+    <string name="goods_cart">购物车</string>
+    <string name="goods_order_submit">确认订单</string>
+    <string name="register">注册</string>
+    <string name="goods_buying">限时抢购</string>
+    <string name="more">更多</string>
+    <string name="header_hint_normal">下拉刷新</string>
+    <string name="header_hint_ready">松开刷新数据</string>
+    <string name="header_hint_loading">正在加载...</string>
+    <string name="header_last_time">上次更新时间：</string>
+    <string name="footer_hint_normal">查看更多</string>
+    <string name="footer_hint_ready">松开载入更多</string>
+
+    <!-- 关于 -->
+    <string name="about">关于</string>
+    <string name="about_0">137home网站是中国首家以实景动态展示商场+电商在线购买为模式的建材家具商城.</string>
+    <string name="about_1">137home网站为现代人提供了一种全新的装修体验,使消费者可以用最短的时间了解到新品新款的商品信息,促销信息,通过线上了解,预定下单优惠下载,到门店体验看样某最终现场晚上支付,建立一种全新的电子商务模式.</string>
+    <string name="about_2">137home全名137home要省钱家居专业网,创建于2006年10月,专注于提供白领家庭的生活消费指导与产品信息.主业务涉及以用最短的时间了解到新品新款的商品信息,促销信息,通过线上了解,预定下单优惠下载,到门店体验看样某最终现场晚上支付,建立一种全新的电子商务模式,大大增加网络购物的可信度,用户在线购物不用担心用户的信誉,售后问题,享受购物双重保障.</string>
+    <!-- 服务条款 -->
+    <string name="server">服务条款</string>
+    <string name="server_title_0">【先行赔付】</string>
+    <string name="server_title_1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;顾客在喜盈门购买的商品,持喜盈门确认的销售清单,在国家规定的"三包期"内出现质量问题,并经国家权威机构鉴定属实的,由喜盈门先行向顾客进行赔付.先行赔付的方式主要采取无条件修复,更换方式,当确定无法修复和更换时进行现金补偿.顾客有义务采取措施来防止损失的进一步扩大,如没有采取适当措施致使损失扩大的,不得就扩大的损失要求赔偿.</string>
+    <string name="server_title_2">【7天无理由退货】</string>
+    <string name="server_title_3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;顾客在喜盈门购买商品后,在不影响二次销售的情况下,持经喜盈门确认的销售清单在7日内(从喜盈门销售清单上的订货日期起算)可无理由退货.已送货的商品,退货时顾客应承担运输费,搬运费等实际已发生的费用,并负责把商品送到商家指定的地点.
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;以下情况无质量问题恕不退换:\n特殊定制商品(含进口商品,挑选花色的布艺类商品等);特价商品;团购商品;原包装损坏或遗失的;因使用,维修,保养不当或自行拆装造成损坏的;配件不全或损坏的;附带赠品不全或遗失的.特别应注意以下常见属于影响商品二次销售的情况:商品有损坏,泡水,沾灰,沾胶等现象的;布艺类商品经过裁剪的;已拆包装的卫浴龙头以及锁具五金,床垫或床上用品等;已安装完毕的板式家具,DIY产品.
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;特殊商品的退货规定:地板,瓷砖类退多余商品一般不超过2平方,最高不得超过所购商品总数的10%,且退货应在交货之日起30天内.</string>
+    <string name="server_title_4">【差价3倍返还】</string>
+    <string name="server_title_5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;顾客在喜盈门购买任何商品10天内(从喜盈门销售清单上的订货日期起算),如在厦门市内其它同等条件商场有价格低于本商场的相同品牌,相同规格的现货商品(促销,特价,团购商品及使用优惠卡打折商品除外),并提供相同时间的购物凭证及发票,经核实后喜盈门将差价3倍返还顾客.</string>
+    <string name="server_title_6">【送货】</string>
+    <string name="server_title_7">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;顾客在喜盈门单个展厅购物满2000元以上厦门市区岛内免费送货.目前所有商品不提供上楼服务,如遇客户紧急需要,上楼服务实行有偿收费,双方另有约定的从约定;因单方责任造成延迟送货,责任方应每日向对方支付商品总价款的1‰作为送货延迟违约金;如因不可抗力造成展厅不能按时交货的,展厅不付违约责任,但应与顾客重新约定送货时间;因顾客原因逾期提货的,逾期超过1个月定金不予退还.</string>
+    <string name="server_title_8">【验货】</string>
+    <string name="server_title_9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;顾客在商品交付时,应当对其商品的数量,规格,颜色以及完好程度等进行查验,并在送货凭证上签字确认.纸箱包装的所有商品,顾客在拆封时请用小刀将封口处的胶带轻轻划开,尽量不要破坏其它地方,取出商品后请务必保留原包装,以免退换货造成不便.顾客在验货时发现与约定不符的,应当场提出异议,顾客在送货凭证上签字确认后,即视为对此商品已验收且无异议,之后顾客再就该商品的数量,规格,颜色以及完好程度提出异议,喜盈门不予采纳.</string>
+    <string name="server_title_10">【特别提示】</string>
+    <string name="server_title_11">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;天然材料制成的商品往往色泽,纹理会有差异,还会有些色斑,疖疤等,这些都是天然材料的特征,并非质量问题,敬请选购时充分考虑. 
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;以上售后细则如与具体商品的特别服务条款冲突,以该商品的特别服务条款为准,双方另有约定的从约定. 
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您在喜盈门购物时请向展厅索取喜盈门销售清单,并到喜盈门服务台加盖售后服务专用章,以此作为喜盈门500万先行赔付和售后服务的依据,未经喜盈门服务台盖章确认的销售清单不享受喜盈门500万先行赔付和各项售后服务. 
+
+\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;如果您在喜盈门购物过程中遇到问题,请致电网站热线0592-3755518,与网站客户服务中心联系,我们将竭诚为您服务.</string>
+
+</resources>

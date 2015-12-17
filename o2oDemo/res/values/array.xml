@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="setting_title">
+        <item>个人信息</item>
+        <item>我的收藏</item>
+        <item>个人订单</item>
+        <item>我的购物车</item>
+        <item>收货地址管理</item>
+    </string-array>
+
+    <string-array name="setting_image">
+        <item>user_icon</item>
+        <item>shoucang_icon</item>
+        <item>dingdan_icon</item>
+        <item>shop_icon</item>
+        <item>address_icon</item>
+    </string-array>
+
+    
+    <string-array name="setting_title_back">
+        <item>个人信息</item>
+        <item>图片库</item>
+        <item>我的收藏</item>
+        <item>个人订单</item>
+        <item>点评</item>
+        <item>我的榜单</item>
+        <item>我的关注</item>
+        <item>我的购物车</item>
+        <item>收货地址管理</item>
+        <item>我的爆料</item>
+        <item>我的优惠卷</item>
+        <item>参与的活动</item>
+    </string-array>
+
+    <string-array name="setting_image_back">
+        <item>user_icon</item>
+        <item>image_icon</item>
+        <item>shoucang_icon</item>
+        <item>dingdan_icon</item>
+        <item>dianping_icon</item>
+        <item>bangdan_icon</item>
+        <item>guanzhu_icon</item>
+        <item>shop_icon</item>
+        <item>address_icon</item>
+        <item>speak_icon</item>
+        <item>youhuijuan_icon</item>
+        <item>activity_icon</item>
+    </string-array>
+</resources>

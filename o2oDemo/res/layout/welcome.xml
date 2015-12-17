@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.demo.xiamenhome"
+    style="@style/w_h_full"
+    android:orientation="vertical" >
+
+    <com.demo.view.ViewFlow
+        android:id="@+id/flow"
+        style="@style/w_h_full"
+        app:sidebuffer="3" >
+    </com.demo.view.ViewFlow>
+
+    <LinearLayout
+        style="@style/w_wrap_h_wrap"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp" >
+
+        <com.demo.view.CircleFlowIndicator
+            android:id="@+id/circle"
+            style="@style/w_wrap_h_wrap"
+            android:padding="5dip"
+            app:activeColor="#ffffff"
+            app:fadeOut="1000"
+            app:inactiveColor="#eaeaea"
+            app:inactiveType="fill"
+            app:radius="5dp"
+            app:spacing="4dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,323 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.demo.xiamenhome"
+    style="@style/w_h_full"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bar_back22"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_changsha" />
+
+        <RelativeLayout
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/top_search"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/search_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/search_bt" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/top_button"
+            android:gravity="center"
+            android:text="360" />
+    </LinearLayout>
+
+    <com.demo.view.PagerScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/frame"
+                android:layout_width="480px"
+                android:layout_height="300px" >
+
+                <com.demo.view.ViewFlow
+                    android:id="@+id/baner"
+                    style="@style/w_h_full" >
+                </com.demo.view.ViewFlow>
+
+                <com.demo.view.CircleFlowIndicator
+                    android:id="@+id/circle"
+                    style="@style/w_wrap_h_wrap"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dip"
+                    android:paddingBottom="30dp"
+                    app:activeColor="#ffffff"
+                    app:fadeOut="1000"
+                    app:inactiveColor="#eaeaea"
+                    app:inactiveType="fill"
+                    app:radius="5dp"
+                    app:spacing="4dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="480px"
+                        android:layout_height="1131px"
+                        android:background="@drawable/home_back" />
+
+                    <View
+                        android:id="@+id/view_woshi"
+                        android:layout_width="40px"
+                        android:layout_height="80px"
+                        android:layout_marginTop="10px"
+                        android:contentDescription="卧室" />
+
+                    <View
+                        android:id="@+id/view_chuanglian"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="80px"
+                        android:layout_marginTop="40px"
+                        android:contentDescription="窗帘"
+                        android:tag="563" />
+
+                    <View
+                        android:id="@+id/view_diban"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="50px"
+                        android:layout_marginTop="150px"
+                        android:tag="452" />
+
+                    <View
+                        android:id="@+id/view_yigui"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="345px"
+                        android:layout_marginTop="20px"
+                        android:tag="16" />
+
+                    <View
+                        android:id="@+id/view_chuang"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="345px"
+                        android:layout_marginTop="120px"
+                        android:tag="512" />
+
+                    <View
+                        android:id="@+id/look_keting"
+                        android:layout_width="80px"
+                        android:layout_height="30px"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="250px" />
+
+                    <View
+                        android:id="@+id/look_yushi"
+                        android:layout_width="80px"
+                        android:layout_height="30px"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="540px" />
+
+                    <View
+                        android:id="@+id/look_chufang"
+                        android:layout_width="80px"
+                        android:layout_height="30px"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="810px" />
+
+                    <View
+                        android:id="@+id/look_woshi"
+                        android:layout_width="80px"
+                        android:layout_height="30px"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="1100px" />
+
+                    <View
+                        android:id="@+id/view_keting"
+                        android:layout_width="40px"
+                        android:layout_height="80px"
+                        android:layout_marginTop="300px" />
+
+                    <View
+                        android:id="@+id/view_dengshi"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="300px"
+                        android:layout_marginTop="320px"
+                        android:tag="548" />
+
+                    <View
+                        android:id="@+id/view_shafa"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="220px"
+                        android:layout_marginTop="390px"
+                        android:tag="506" />
+
+                    <View
+                        android:id="@+id/view_chaji"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="240px"
+                        android:layout_marginTop="490px"
+                        android:tag="545" />
+
+                    <View
+                        android:id="@+id/view_bizhi"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="410px"
+                        android:layout_marginTop="400px"
+                        android:tag="570" />
+
+                    <View
+                        android:id="@+id/view_yushi"
+                        android:layout_width="40px"
+                        android:layout_height="80px"
+                        android:layout_marginTop="580px" />
+
+                    <View
+                        android:id="@+id/view_longtou"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="50px"
+                        android:layout_marginTop="650px"
+                        android:tag="478" />
+
+                    <View
+                        android:id="@+id/view_chizhuan"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="190px"
+                        android:layout_marginTop="640px"
+                        android:tag="483" />
+
+                    <View
+                        android:id="@+id/view_wujing"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="130px"
+                        android:layout_marginTop="690px"
+                        android:tag="572" />
+
+                    <View
+                        android:id="@+id/view_zuobianqi"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="220px"
+                        android:layout_marginTop="780px"
+                        android:tag="473" />
+
+                    <View
+                        android:id="@+id/view_yushigui"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="360px"
+                        android:layout_marginTop="740px"
+                        android:tag="477" />
+
+                    <View
+                        android:id="@+id/view_taipen"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="390px"
+                        android:layout_marginTop="670px"
+                        android:tag="476" />
+
+                    <View
+                        android:id="@+id/view_cufang"
+                        android:layout_width="40px"
+                        android:layout_height="80px"
+                        android:layout_marginTop="850px" />
+
+                    <View
+                        android:id="@+id/view_chudian"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="90px"
+                        android:layout_marginTop="940px"
+                        android:tag="462" />
+
+                    <View
+                        android:id="@+id/view_canzuo"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="130px"
+                        android:layout_marginTop="1010px"
+                        android:tag="533" />
+
+                    <View
+                        android:id="@+id/view_chugui"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="390px"
+                        android:layout_marginTop="970px"
+                        android:tag="460" />
+
+                    <View
+                        android:id="@+id/view_yizi"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_marginLeft="320px"
+                        android:layout_marginTop="1040px"
+                        android:tag="544" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.demo.view.PagerScrollView>
+
+</RelativeLayout>

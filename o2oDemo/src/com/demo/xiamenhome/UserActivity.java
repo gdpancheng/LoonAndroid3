@@ -185,7 +185,7 @@ public abstract class UserActivity extends BaseActivity implements PluginPhoto, 
 			}
 			break;
 		case R.id.camera:
-			photo(getPhotoConfig());
+			camera(getPhotoConfig());
 			break;
 		case R.id.photo:
 			photo(getPhotoConfig());

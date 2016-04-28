@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/w_h_full" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            	android:id="@+id/tv_first"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/bt_onclick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="单击" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="第二 自动绑定长按事件" />
+
+            <Button
+                android:id="@+id/bt_long"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="长按" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="第三 自动绑定多选事件" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/cb_select"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="多选一" />
+
+                <CheckBox
+                    android:id="@+id/cb_select1"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="多选二" />
+
+                <CheckBox
+                    android:id="@+id/cb_select2"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="多选三" />
+
+                <CheckBox
+                    android:id="@+id/cb_select3"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="多选四" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="第四 自动绑定单选事件" />
+
+            <RadioGroup
+                android:id="@+id/rg_radio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radiobutton1"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="单选一" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton2"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="单选二" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton3"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="单选三" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton4"
+                    android:layout_width="0.0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="单选四" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="第五 自动绑定listview的单击,长按,选择" />
+
+            <ListView
+                android:id="@+id/lv_list"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="第六 自动绑定Spinner的选择" />
+
+            <Spinner
+                android:id="@+id/sp_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="第七 自动绑定触摸事件" />
+
+            <TextView
+                android:id="@+id/tv_touch"
+                android:layout_width="fill_parent"
+                android:longClickable="true"
+                android:layout_height="80dp" 
+                android:text="触摸此区域"/>
+    </LinearLayout>
+
+</ScrollView>

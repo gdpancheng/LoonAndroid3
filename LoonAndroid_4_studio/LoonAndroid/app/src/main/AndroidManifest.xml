@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loonandroid2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.android.demo.app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="my_application"
+            android:value="com.android.demo.app.App" >
+        </meta-data>
+
+        <activity
+            android:name="com.android.demo.activity.WelecomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.demo.activity.MenuActivity" />
+        <!--
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+        -->
+
+        <activity android:name="com.android.demo.activity.HttpDemoActivity" />
+        <activity android:name="com.android.demo.activity.InLayerActivity" />
+        <activity android:name="com.android.demo.activity.InPLayerActivity" />
+        <activity android:name="com.android.demo.activity.LifeCyCleActivity" />
+        <activity android:name="com.android.demo.activity.InViewActivity" />
+        <activity android:name="com.android.demo.activity.InAllActivity" />
+        <activity android:name="com.android.demo.activity.InSourceActivity" />
+        <activity android:name="com.android.demo.activity.NoAdapterActivity" />
+        <activity android:name="com.android.demo.activity.BaseAdapterActivity" />
+        <activity android:name="com.android.demo.activity.CustomAdapterActivity" />
+        <activity android:name="com.android.demo.activity.ParamAdapterActivity" />
+        <activity android:name="com.android.demo.activity.ModuleActivity" />
+        <activity android:name="com.android.demo.activity.Module2Activity" />
+        <activity android:name="com.android.demo.activity.AutoFragmentActivity" />
+        <activity android:name="com.android.demo.activity.ParamFragmentActivity" />
+        <activity android:name="com.android.demo.activity.PullListViewActivity" />
+        <activity android:name="com.android.demo.activity.PullGridActivity" />
+        <activity android:name="com.android.demo.activity.PullHorizontalScrollViewActivity" />
+        <activity android:name="com.android.demo.activity.PullScrollViewActivity" />
+        <activity android:name="com.android.demo.activity.PullViewPagerActivity" />
+        <activity android:name="com.android.demo.activity.PullVerticalViewPagerActivity" />
+        <activity android:name="com.android.demo.activity.PullWebViewActivity" />
+        <activity android:name="com.android.demo.activity.GetPhotoActivity" />
+        <activity android:name="com.android.demo.activity.SimpleAdapterActivity" />
+        <activity android:name="com.android.demo.activity.SimpleAdapterActivity2" />
+        <activity android:name="com.android.demo.activity.InBackActivity" />
+        <activity android:name="com.android.demo.activity.CustomAdapterActivity2" />
+        <activity android:name="com.android.demo.activity.HttpActivity" />
+        <activity android:name="com.android.demo.activity.SimpleAdapterActivity3" />
+        <activity android:name="com.android.demo.activity.LoginActivity" />
+        <activity android:name="com.android.demo.activity.ValidatorActivity" />
+        <activity android:name="com.android.demo.activity.InBusActivity" />
+        <activity android:name="com.android.demo.activity.BusFragmentActivity" />
+        <activity android:name="com.android.demo.activity.CountdownActivity" />
+        <activity android:name="com.android.demo.activity.InHashMapActivity" />
+        <activity android:name="com.android.demo.activity.InBeanActivity" />
+        
+    </application>
+
+</manifest>

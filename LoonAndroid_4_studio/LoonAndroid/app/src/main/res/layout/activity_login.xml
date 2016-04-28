@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        style="@style/w_full_h_wrap"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/w_wrap_h_wrap"
+            android:layout_gravity="center_horizontal"
+            android:text="登录"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/ed_number"
+            style="@style/w_full_h_wrap"
+            android:layout_marginTop="20dp"
+            android:hint="请输入账号" />
+
+        <EditText
+            android:id="@+id/ed_password"
+            style="@style/w_full_h_wrap"
+            android:layout_marginTop="20dp"
+            android:hint="请输入密码" />
+
+        <CheckBox
+            android:id="@+id/ed_remember"
+            style="@style/w_wrap_h_wrap"
+            android:text="是否保存密码" />
+
+        <Button
+            android:id="@+id/ed_submit"
+            style="@style/w_wrap_h_wrap"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+             android:layout_gravity="center_horizontal"
+            android:text="提交" />
+    </LinearLayout>
+
+</RelativeLayout>

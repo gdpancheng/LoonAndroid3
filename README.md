@@ -532,7 +532,7 @@ public class AutoFragment extends Fragment {
 3 网络请求可以切换网络核心，框架只负责分发，力求傻瓜化，来适应外包敏捷开发
 等等
 
-##感谢以下项目
+## 感谢以下项目
 `LoonAndroid 1X 已经上线并告诉我的项目`<br>
 **其中面吧是一个转为码农找工作，面试，做面试题的神器，希望大家多多支持<br>**
 ![](https://raw.githubusercontent.com/gdpancheng/android_frame/master/xincaifu.png)[酷鱼: 新财富集团的APP 资本人的社交圈](http://a.app.qq.com/o/simple.jsp?pkgname=cn.bluemobi.xcf)<br>
@@ -543,14 +543,14 @@ public class AutoFragment extends Fragment {
 ![](https://raw.githubusercontent.com/gdpancheng/android_frame/master/mianba.png)[面吧：一个朋友开发的软件，转为程序员面试使用的神器，帮忙宣传下，谢谢。](http://www.wandoujia.com/apps/com.pc.knowledge)<br>
 ![](https://raw.githubusercontent.com/gdpancheng/android_frame/master/paishouba.png)[拍手吧：高品质音乐，独特的游戏，海量电子书，超好玩的应用软件以及社交体验](http://apk.hiapk.com/appinfo/com.smartions.ps8web)<br>
 
-##有问题反馈
+## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
 * 邮件(gdpancheng#gmail.com, 把#换成@)
 * 微信: gdpancheng
 * weibo: [@码农无码](http://weibo.com/u/2426174994)
 
-##捐助开发者
+## 捐助开发者
 有意也好，无意也罢，至少写了一个东西，有欣喜，也还有汗水，有谩骂，有沮丧，希望你喜欢我的作品，同时也能支持一下。
 ![](https://raw.githubusercontent.com/gdpancheng/android_frame/master/zhifubao.png)
 ![](https://raw.githubusercontent.com/gdpancheng/android_frame/master/weixin.png)
